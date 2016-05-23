@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="collective.i18noverridebackend.en"
+      interface="collective.i18noverridebackend.en.interfaces.ICollectiveI18NoverridebackendEnLayer"
+      />
+</layers>
