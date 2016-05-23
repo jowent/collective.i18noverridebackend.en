@@ -37,8 +37,8 @@ msgid "No value"
 msgstr "No value"
 
 #: src/z3c/form/browser/select.py:40
-msgid "Select a value ..."
-msgstr "Select a value ..."
+#msgid "Select a value ..."
+#msgstr "Select a value ..."
 
 #: src/z3c/form/converter.py:125
 msgid "The entered value is not a valid integer literal."
