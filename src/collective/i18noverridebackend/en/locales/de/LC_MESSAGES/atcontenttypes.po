@@ -1,0 +1,864 @@
+# Translation of atcontenttypes.pot to German
+# Hanno Schlichting <plone@hannosch.info>, 2005-2007
+# Jan Ulrich Hasecke <jan.ulrich@hasecke.com>, 2005
+msgid ""
+msgstr ""
+"Project-Id-Version: ATContentTypes\n"
+"POT-Creation-Date: 2013-05-22 08:09+0000\n"
+"PO-Revision-Date: 2011-01-10 11:44+0100\n"
+"Last-Translator: Jan Ulrich Hasecke <jan.ulrich@hasecke.com>\n"
+"Language-Team: Deutsch <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#. Default: "1 Day"
+#: ATContentTypes/criteria/date.py:25
+msgid "1 Day"
+msgstr "1 Day"
+
+#. Default: "1 Month"
+#: ATContentTypes/criteria/date.py:30
+msgid "1 Month"
+msgstr "1 Month"
+
+#. Default: "1 Week"
+#: ATContentTypes/criteria/date.py:28
+msgid "1 Week"
+msgstr "1 Week"
+
+#. Default: "1 Year"
+#: ATContentTypes/criteria/date.py:33
+msgid "1 Year"
+msgstr "1 Year"
+
+#. Default: "2 Days"
+#: ATContentTypes/criteria/date.py:26
+msgid "2 Days"
+msgstr "2 Days"
+
+#. Default: "2 Weeks"
+#: ATContentTypes/criteria/date.py:29
+msgid "2 Weeks"
+msgstr "2 Weeks"
+
+#. Default: "2 Years"
+#: ATContentTypes/criteria/date.py:34
+msgid "2 Years"
+msgstr "2 Years"
+
+#. Default: "3 Months"
+#: ATContentTypes/criteria/date.py:31
+msgid "3 Months"
+msgstr "3 Months"
+
+#. Default: "5 Days"
+#: ATContentTypes/criteria/date.py:27
+msgid "5 Days"
+msgstr "5 Days"
+
+#. Default: "6 Months"
+#: ATContentTypes/criteria/date.py:32
+msgid "6 Months"
+msgstr "6 Months"
+
+#: ATContentTypes/skins/ATContentTypes/criterion_add.cpy:16
+msgid "Added criterion ${criterion} for field ${field}."
+msgstr "Added criterion ${criterion} for field ${field}."
+
+#. Default: "Between"
+#: ATContentTypes/criteria/simpleint.py:26
+msgid "Between"
+msgstr "Between"
+
+#: ATContentTypes/skins/ATContentTypes/validate_atct.vpy:41
+msgid "Changes saved."
+msgstr "Changes saved."
+
+#: ATContentTypes/skins/ATContentTypes/atct_saveTopicSetup.cpy:21
+msgid "Collection settings saved."
+msgstr "Collection settings saved."
+
+#: ATContentTypes/skins/ATContentTypes/validate_add_criterion.vpy:21
+msgid "Criterion of type ${type} not added, it does not work with index ${index}."
+msgstr "Criterion of type ${type} not added, it does not work with index ${index}."
+
+#. Default: "Equal to"
+#: ATContentTypes/criteria/simpleint.py:23
+msgid "Equal to"
+msgstr "Equal to"
+
+#. image transform method name
+#. Default: "Flip around horizontal axis"
+#: ATContentTypes/lib/imagetransform.py:36
+msgid "Flip around horizontal axis"
+msgstr "Horizontal spiegeln"
+
+#. image transform method name
+#. Default: "Flip around vertical axis"
+#: ATContentTypes/lib/imagetransform.py:35
+msgid "Flip around vertical axis"
+msgstr "Vertikal spiegeln"
+
+#. Default: "Greater than"
+#: ATContentTypes/criteria/simpleint.py:24
+msgid "Greater than"
+msgstr "Greater than"
+
+#. Default: "Less than"
+#: ATContentTypes/criteria/simpleint.py:25
+msgid "Less than"
+msgstr "Less than"
+
+#. Default: "More than"
+#: ATContentTypes/criteria/date.py:38
+msgid "More than"
+msgstr "More than"
+
+#. Default: "Now"
+#: ATContentTypes/criteria/date.py:24
+msgid "Now"
+msgstr "Now"
+
+#. Default: "On the day"
+#: ATContentTypes/criteria/date.py:40
+msgid "On the day"
+msgstr "On the day"
+
+#: ATContentTypes/skins/ATContentTypes/validate_atct.vpy:37
+msgid "Please correct the indicated errors."
+msgstr "Please correct the indicated errors."
+
+#: ATContentTypes/skins/ATContentTypes/criterion_remove.cpy:25
+msgid "Removed criteria ${criteria}."
+msgstr "Removed criteria ${criteria}."
+
+#: ATContentTypes/criteria/sort.py:24
+msgid "Reverse"
+msgstr "Reverse"
+
+#. image transform method name
+#. Default: "Rotate 180"
+#: ATContentTypes/lib/imagetransform.py:38
+msgid "Rotate 180"
+msgstr "Um 180° drehen"
+
+#. image transform method name
+#. Default: "Rotate 90 clockwise"
+#: ATContentTypes/lib/imagetransform.py:37
+msgid "Rotate 90 clockwise"
+msgstr "Im Uhrzeigersinn um 90° drehen"
+
+#. image transform method name
+#. Default: "Rotate 90 counterclockwise"
+#: ATContentTypes/lib/imagetransform.py:39
+msgid "Rotate 90 counterclockwise"
+msgstr "Gegen den Uhrzeigersinn um 90° drehen"
+
+#: ATContentTypes/skins/ATContentTypes/validate_set_sort.vpy:16
+msgid "Sort order on field ${field} not set, it cannot be used for ordering."
+msgstr "Sort order on field ${field} not set, it cannot be used for ordering."
+
+#: ATContentTypes/skins/ATContentTypes/criterion_set_sort.cpy:20
+msgid "Sort order set on field ${field}."
+msgstr "Sort order set on field ${field}."
+
+#: ATContentTypes/skins/ATContentTypes/validate_remove_criterion.vpy:13
+msgid "You must first select a criterion to remove."
+msgstr "You must first select a criterion to remove."
+
+#. Default: "and"
+#: ATContentTypes/criteria/selection.py:24
+msgid "and"
+msgstr "and"
+
+#. Default: "Changes of ${title}"
+#: ATContentTypes/skins/ATContentTypes/atct_history.pt:15
+msgid "atct_history_changes_of"
+msgstr "Changes of ${title}"
+
+#. Default: "Changes in this revision"
+#: ATContentTypes/skins/ATContentTypes/atct_history.pt:54
+msgid "atct_history_changes_revision"
+msgstr "Changes in this revision"
+
+#. Default: "Comment"
+#: ATContentTypes/skins/ATContentTypes/atct_history.pt:47
+msgid "atct_history_comment"
+msgstr "Comment"
+
+#. Default: "Comparison between ${from} and ${to}"
+#: ATContentTypes/skins/ATContentTypes/atct_history.pt:43
+msgid "atct_history_comparison_between"
+msgstr "Comparison between ${from} and ${to}"
+
+#. Default: "Shows the last changes of the item, with new content in green (normal text), and deleted content in red (strike-out text)."
+#: ATContentTypes/skins/ATContentTypes/atct_history.pt:18
+msgid "atct_history_lastchanges_description"
+msgstr "Shows the last changes of the item, with new content in green (normal text), and deleted content in red (strike-out text)."
+
+#. Default: "No changes available for this document"
+#: ATContentTypes/skins/ATContentTypes/atct_history.pt:63
+msgid "atct_history_lastchanges_notavailable"
+msgstr "No changes available for this document"
+
+#. Default: "User"
+#: ATContentTypes/skins/ATContentTypes/atct_history.pt:49
+msgid "atct_history_user"
+msgstr "User"
+
+#. Default: "This changelog will be emptied when the site administrator performs maintenance (packing) of the database, and is only provided for your convenience. If the item has no history, it normally means that no changes have been made since the last time the history log was removed by the administrator."
+#: ATContentTypes/skins/ATContentTypes/atct_history.pt:26
+msgid "atct_lastchanges_warning"
+msgstr "This changelog will be emptied when the site administrator performs maintenance (packing) of the database, and is only provided for your convenience. If the item has no history, it normally means that no changes have been made since the last time the history log was removed by the administrator."
+
+#. Default: "All fields"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:84
+msgid "atct_show_all_fields"
+msgstr "All fields"
+
+#. Default: "Enabled fields only"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:78
+msgid "atct_show_enabled_fields"
+msgstr "Enabled fields only"
+
+#. Default: "Use parent folder settings"
+#: ATContentTypes/lib/constraintypes.py:38
+msgid "constraintypes_acquire_label"
+msgstr "Use parent folder settings"
+
+#. Default: "Use portal default"
+#: ATContentTypes/lib/constraintypes.py:39
+msgid "constraintypes_disable_label"
+msgstr "Use portal default"
+
+#. Default: "Select manually"
+#: ATContentTypes/lib/constraintypes.py:40
+msgid "constraintypes_enable_label"
+msgstr "Select manually"
+
+#. Default: "Configure which metadata will be available for Collection views."
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:43
+msgid "description_configure_available_collection_metadata"
+msgstr "Configure which metadata will be available for Collection views."
+
+#. Default: "Configure which indices will be displayed while creating criteria for Collections, and how they will be displayed."
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicIndex.cpt:44
+msgid "description_configure_collection_indices"
+msgstr "Configure which indices will be displayed while creating criteria for Collections, and how they will be displayed."
+
+#. Default: "Select the types which will be addable inside this folder."
+#: ATContentTypes/lib/constraintypes.py:73
+msgid "description_constrain_allowed_types"
+msgstr "Select the types which will be addable inside this folder."
+
+#. Default: "Select the types which will be addable from the \"Add new item\" menu. Any additional types set in the list above will be addable from a separate form."
+#: ATContentTypes/lib/constraintypes.py:93
+msgid "description_constrain_preferred_types"
+msgstr "Select the types which will be addable from the \"Add new item\" menu. Any additional types set in the list above will be addable from a separate form."
+
+#. Default: "Select the constraint type mode for this folder."
+#: ATContentTypes/lib/constraintypes.py:53
+msgid "description_constrain_types_mode"
+msgstr "Select the constraint type mode for this folder."
+
+#. Default: "No criteria defined yet. The search will not show any results. Please add criteria below."
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:74
+msgid "description_no_criteria_in_criteria_form"
+msgstr "No criteria defined yet. The search will not show any results. Please add criteria below."
+
+#. Default: "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
+#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:124
+msgid "description_no_criteria_in_topic"
+msgstr "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
+
+#. Default: "There are currently no results for this search."
+#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:117
+msgid "description_no_items_in_topic"
+msgstr "There are currently no results for this search."
+
+#. Default: "End date must be after start date."
+#: ATContentTypes/content/event.py:244
+msgid "error_end_must_be_after_start_date"
+msgstr "End date must be after start date."
+
+#. Default: "End date is not valid."
+#: ATContentTypes/content/event.py:226
+msgid "error_invalid_end_date"
+msgstr "End date is not valid."
+
+#. Default: "Start date is not valid."
+#: ATContentTypes/content/event.py:234
+msgid "error_invalid_start_date"
+msgstr "Start date is not valid."
+
+#. Default: "Collection Settings"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:37
+msgid "heading_collection_settings"
+msgstr "Collection Settings"
+
+#. Default: "Also in this section"
+#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:139
+msgid "heading_contained_collections"
+msgstr "Also in this section"
+
+#. Default: "Criteria for ${title}"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:71
+msgid "heading_criteria_for"
+msgstr "Criteria for ${title}"
+
+#. Default: "Indices (fields for searching)"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicIndex.cpt:75
+msgid "heading_indices_fields_for_searching"
+msgstr "Indices (fields for searching)"
+
+#. Default: "Metadata (fields for display)"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:73
+msgid "heading_metadata_fields_for_display"
+msgstr "Metadata (fields for display)"
+
+#. Default: "True or false"
+#: ATContentTypes/criteria/boolean.py:29
+msgid "help_boolean_criteria_bool"
+msgstr "True or false"
+
+#. Default: "List Available Fields"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:157
+msgid "help_criteria_field_name"
+msgstr "List Available Fields"
+
+#. Default: "Criteria does match"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:186
+msgid "help_criteria_type"
+msgstr "Criteria does match"
+
+#. Default: "Existing values."
+#: ATContentTypes/criteria/selection.py:39
+msgid "help_criteria_values"
+msgstr "Existing values."
+
+#. Default: "Columns in the table are controlled by 'Table Columns' below."
+#: ATContentTypes/content/topic.py:113
+msgid "help_custom_view"
+msgstr "Columns in the table are controlled by 'Table Columns' below."
+
+#. Default: "Select which fields to display when 'Display as Table' is checked."
+#: ATContentTypes/content/topic.py:127
+msgid "help_custom_view_fields"
+msgstr "Select which fields to display when 'Display as Table' is checked."
+
+#. Default: "Select the date criteria operation."
+#: ATContentTypes/criteria/date.py:86
+msgid "help_date_criteria_operation"
+msgstr "Select the date criteria operation."
+
+#. Default: "Select the date criteria range. Ignore this if you selected 'Now' above."
+#: ATContentTypes/criteria/date.py:73
+msgid "help_date_criteria_range"
+msgstr "Select the date criteria range. Ignore this if you selected 'Now' above."
+
+#. Default: "Select the date criteria value."
+#: ATContentTypes/criteria/date.py:59
+msgid "help_date_criteria_value"
+msgstr "Select the date criteria value."
+
+#. Default: "The ending of the date range to search."
+#: ATContentTypes/criteria/daterange.py:42
+msgid "help_date_range_criteria_end"
+msgstr "The ending of the date range to search."
+
+#. Default: "The beginning of the date range to search"
+#: ATContentTypes/criteria/daterange.py:31
+msgid "help_date_range_criteria_start"
+msgstr "The beginning of the date range to search"
+
+#. Default: "Presentation mode"
+#: ATContentTypes/content/document.py:55
+msgid "help_enable_presentation"
+msgstr "Presentation mode"
+
+#. Default: "If selected, this will give users the ability to view the contents as presentation slides."
+#: ATContentTypes/content/document.py:58
+msgid "help_enable_presentation_description"
+msgstr "If selected, this will give users the ability to view the contents as presentation slides."
+
+#. Default: "Table of contents"
+#: ATContentTypes/content/document.py:68
+msgid "help_enable_table_of_contents"
+msgstr "Table of contents"
+
+#. Default: "If selected, this will show a table of contents at the top of the page."
+#: ATContentTypes/content/document.py:71
+msgid "help_enable_table_of_contents_description"
+msgstr "If selected, this will show a table of contents at the top of the page."
+
+#. Default: "Web address with more info about the event. Add http:// for external links."
+#: ATContentTypes/content/event.py:94
+msgid "help_event_url"
+msgstr "Web address with more info about the event. Add http:// for external links."
+
+#. Default: "If selected, this item will not appear in the navigation tree"
+#: ATContentTypes/content/schemata.py:19
+msgid "help_exclude_from_nav"
+msgstr "If selected, this item will not appear in the navigation tree"
+
+#. Default: "Narrow down the search results from the parent Collection(s) by using the criteria from this Collection."
+#: ATContentTypes/content/topic.py:78
+msgid "help_inherit_collection_criteria"
+msgstr "Narrow down the search results from the parent Collection(s) by using the criteria from this Collection."
+
+#. Default: "Specify whether you want to find values lesser than, greater than, equal to, or between the chosen value(s)."
+#: ATContentTypes/criteria/simpleint.py:65
+msgid "help_int_criteria_direction"
+msgstr "Specify whether you want to find values lesser than, greater than, equal to, or between the chosen value(s)."
+
+#. Default: "An integer number."
+#: ATContentTypes/criteria/simpleint.py:39
+msgid "help_int_criteria_value"
+msgstr "An integer number."
+
+#. Default: "An integer number used as the maximum value if the between direction is selected."
+#: ATContentTypes/criteria/simpleint.py:52
+msgid "help_int_criteria_value2"
+msgstr "An integer number used as the maximum value if the between direction is selected."
+
+#. Default: "If selected, only the 'Number of Items' indicated below will be displayed."
+#: ATContentTypes/content/topic.py:91
+msgid "help_limit_number"
+msgstr "If selected, only the 'Number of Items' indicated below will be displayed."
+
+#. Default: "Operator used to join the tests on each value."
+#: ATContentTypes/criteria/selection.py:50
+msgid "help_list_criteria_operator"
+msgstr "Operator used to join the tests on each value."
+
+#. Default: "Values, each on its own line."
+#: ATContentTypes/criteria/list.py:37
+msgid "help_list_criteria_value"
+msgstr "Values, each on its own line."
+
+#. Default: "Will be shown in the news listing, and in the news item itself. Image will be scaled to a sensible size."
+#: ATContentTypes/content/newsitem.py:69
+msgid "help_news_image"
+msgstr "Will be shown in the news listing, and in the news item itself. Image will be scaled to a sensible size."
+
+#. Default: "This enables next/previous widget on content items contained in this folder."
+#: ATContentTypes/content/schemata.py:68
+msgid "help_nextprevious"
+msgstr "This enables next/previous widget on content items contained in this folder."
+
+#. Default: "Folders to search in."
+#: ATContentTypes/criteria/path.py:37
+msgid "help_path_criteria_value"
+msgstr "Folders to search in."
+
+#. Default: "One of the available content types."
+#: ATContentTypes/criteria/portaltype.py:22
+msgid "help_portal_type_criteria_value"
+msgstr "One of the available content types."
+
+#. Default: "Select transformation method."
+#: ATContentTypes/skins/ATContentTypes/atct_image_transform.pt:34
+msgid "help_select_transformation_method"
+msgstr "Select transformation method."
+
+#. Default: "Should not contain spaces, underscores or mixed case. Short Name is part of the item's web address."
+#: ATContentTypes/criteria/schemata.py:21
+msgid "help_shortname"
+msgstr "Should not contain spaces, underscores or mixed case. Short Name is part of the item's web address."
+
+#. Default: "Reverse display order"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:265
+msgid "help_sort_reverse"
+msgstr "Reverse display order"
+
+#. Default: "A string value."
+#: ATContentTypes/criteria/simplestring.py:30
+msgid "help_string_criteria_value"
+msgstr "A string value."
+
+#: ATContentTypes/criteria/date.py:45
+msgid "in the future"
+msgstr "in the future"
+
+#: ATContentTypes/criteria/date.py:44
+msgid "in the past"
+msgstr "in the past"
+
+#. Default: "Add criteria"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:207
+msgid "label_add_criteria"
+msgstr "Add criteria"
+
+#. Default: "Allowed Criteria:"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicIndex.cpt:141
+msgid "label_allowed_criteria"
+msgstr "Allowed Criteria:"
+
+#. Default: "Back to album"
+#: ATContentTypes/skins/ATContentTypes/atct_album_image.pt:35
+msgid "label_back_to_album"
+msgstr "Back to album"
+
+#. Default: "Body Text"
+#: ATContentTypes/content/topic.py:67
+msgid "label_body_text"
+msgstr "Body Text"
+
+#. Default: "Value"
+#: ATContentTypes/criteria/boolean.py:28
+msgid "label_boolean_criteria_bool"
+msgstr "Value"
+
+#. Default: "Collection Indexes"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:20
+msgid "label_collection_indexes"
+msgstr "Collection Indexes"
+
+#. Default: "Collection Metadata"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:25
+msgid "label_collection_metadata"
+msgstr "Collection Metadata"
+
+#. Default: "Permitted types"
+#: ATContentTypes/lib/constraintypes.py:71
+msgid "label_constrain_allowed_types"
+msgstr "Permitted types"
+
+#. Default: "Preferred types"
+#: ATContentTypes/lib/constraintypes.py:92
+msgid "label_constrain_preferred_types"
+msgstr "Preferred types"
+
+#. Default: "Contact E-mail"
+#: ATContentTypes/content/event.py:118
+msgid "label_contact_email"
+msgstr "Contact E-mail"
+
+#. Default: "Contact Name"
+#: ATContentTypes/content/event.py:107
+msgid "label_contact_name"
+msgstr "Contact Name"
+
+#. Default: "Contact Phone"
+#: ATContentTypes/content/event.py:129
+msgid "label_contact_phone"
+msgstr "Contact Phone"
+
+#. Default: "Constrain types mode"
+#: ATContentTypes/lib/constraintypes.py:51
+msgid "label_contrain_types_mode"
+msgstr "Constrain types mode"
+
+#. Default: "Field name"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:155
+msgid "label_criteria_field_name"
+msgstr "Field name"
+
+#. Default: "Criteria type"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:184
+msgid "label_criteria_type"
+msgstr "Criteria type"
+
+#. Default: "Values"
+#: ATContentTypes/criteria/selection.py:38
+msgid "label_criteria_values"
+msgstr "Values"
+
+#. Default: "Display as Table"
+#: ATContentTypes/content/topic.py:112
+msgid "label_custom_view"
+msgstr "Display as Table"
+
+#. Default: "Table Columns"
+#: ATContentTypes/content/topic.py:126
+msgid "label_custom_view_fields"
+msgstr "Table Columns"
+
+#. Default: "More or less"
+#: ATContentTypes/criteria/date.py:85
+msgid "label_date_criteria_operation"
+msgstr "More or less"
+
+#. Default: "In the past or future"
+#: ATContentTypes/criteria/date.py:71
+msgid "label_date_criteria_range"
+msgstr "In the past or future"
+
+#. Default: "Which day"
+#: ATContentTypes/criteria/date.py:58
+msgid "label_date_criteria_value"
+msgstr "Which day"
+
+#. Default: "End Date"
+#: ATContentTypes/criteria/daterange.py:41
+msgid "label_date_range_criteria_end"
+msgstr "End Date"
+
+#. Default: "Start Date"
+#: ATContentTypes/criteria/daterange.py:30
+msgid "label_date_range_criteria_start"
+msgstr "Start Date"
+
+#. Default: "Download PDF"
+#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:21
+msgid "label_download_as_pdf"
+msgstr "Download PDF"
+
+#. Default: "Event body text"
+#: ATContentTypes/content/event.py:74
+msgid "label_event_announcement"
+msgstr "Event body text"
+
+#. Default: "Attendees"
+#: ATContentTypes/content/event.py:84
+msgid "label_event_attendees"
+msgstr "Attendees"
+
+#. Default: "Event Ends"
+#: ATContentTypes/content/event.py:62
+msgid "label_event_end"
+msgstr "Event Ends"
+
+#. Default: "Event Location"
+#: ATContentTypes/content/event.py:38
+msgid "label_event_location"
+msgstr "Event Location"
+
+#. Default: "Event Starts"
+#: ATContentTypes/content/event.py:50
+msgid "label_event_start"
+msgstr "Event Starts"
+
+#. Default: "Event Type(s)"
+#: ATContentTypes/content/event.py:137
+msgid "label_event_type"
+msgstr "Event Type(s)"
+
+#. Default: "Event URL"
+#: ATContentTypes/content/event.py:97
+msgid "label_event_url"
+msgstr "Event URL"
+
+#. Default: "Exclude from navigation"
+#: ATContentTypes/content/schemata.py:20
+msgid "label_exclude_from_nav"
+msgstr "Exclude from navigation"
+
+#. Default: "Execute"
+#: ATContentTypes/skins/ATContentTypes/atct_image_transform.pt:54
+msgid "label_execute"
+msgstr "Execute"
+
+#. Default: "File"
+#: ATContentTypes/content/file.py:50
+msgid "label_file"
+msgstr "File"
+
+#. Default: "Help Text:"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicIndex.cpt:156
+msgid "label_help_text"
+msgstr "Help Text:"
+
+#. Default: "Image"
+#: ATContentTypes/content/image.py:57
+msgid "label_image"
+msgstr "Image"
+
+#. Default: "Image Caption"
+#: ATContentTypes/content/newsitem.py:79
+msgid "label_image_caption"
+msgstr "Image Caption"
+
+#. Default: "Inherit Criteria"
+#: ATContentTypes/content/topic.py:77
+msgid "label_inherit_criteria"
+msgstr "Inherit Criteria"
+
+#. Default: "Direction"
+#: ATContentTypes/criteria/simpleint.py:64
+msgid "label_int_criteria_direction"
+msgstr "Direction"
+
+#. Default: "Value"
+#: ATContentTypes/criteria/simpleint.py:38
+msgid "label_int_criteria_value"
+msgstr "Value"
+
+#. Default: "Second Value"
+#: ATContentTypes/criteria/simpleint.py:51
+msgid "label_int_criteria_value2"
+msgstr "Second Value"
+
+#. Default: "Number of Items"
+#: ATContentTypes/content/topic.py:102
+msgid "label_item_count"
+msgstr "Number of Items"
+
+# ATTopic
+#. Default: "Limit Search Results"
+#: ATContentTypes/content/topic.py:90
+msgid "label_limit_number"
+msgstr "Anzeige der Suchresultate auf mehrere Seiten verteilen"
+
+#. Default: "operator name"
+#: ATContentTypes/criteria/selection.py:49
+msgid "label_list_criteria_operator"
+msgstr "operator name"
+
+#. Default: "Values"
+#: ATContentTypes/criteria/list.py:36
+msgid "label_list_criteria_value"
+msgstr "Values"
+
+#. Default: "Image"
+#: ATContentTypes/content/newsitem.py:70
+msgid "label_news_image"
+msgstr "Image"
+
+#. Default: "Enable next previous navigation"
+#: ATContentTypes/content/schemata.py:69
+msgid "label_nextprevious"
+msgstr "Enable next previous navigation"
+
+#. Default: "(No file has been uploaded)"
+#: ATContentTypes/skins/ATContentTypes/atct_image_transform.pt:26
+msgid "label_no_file_uploaded"
+msgstr "(No file has been uploaded)"
+
+#. Default: "Original size"
+#: ATContentTypes/skins/ATContentTypes/atct_image_transform.pt:21
+msgid "label_original_size"
+msgstr "Original size"
+
+#. Default: "Search Sub-Folders"
+#: ATContentTypes/criteria/path.py:49
+msgid "label_path_criteria_recurse"
+msgstr "Search Sub-Folders"
+
+#. Default: "Folders"
+#: ATContentTypes/criteria/path.py:36
+msgid "label_path_criteria_value"
+msgstr "Folders"
+
+#. Default: "Related Items"
+#: ATContentTypes/content/schemata.py:53
+msgid "label_related_items"
+msgstr "Related Items"
+
+#. Default: "Select method"
+#: ATContentTypes/skins/ATContentTypes/atct_image_transform.pt:46
+msgid "label_select_method"
+msgstr "Select method"
+
+#. Default: "Short Name"
+#: ATContentTypes/criteria/schemata.py:20
+msgid "label_short_name"
+msgstr "Short Name"
+
+#. Default: "Reverse"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:264
+msgid "label_sort_reverse"
+msgstr "Reverse"
+
+#. Default: "Value"
+#: ATContentTypes/criteria/simplestring.py:29
+msgid "label_string_criteria_value"
+msgstr "Value"
+
+#. Default: "Summary"
+#: ATContentTypes/content/newsitem.py:86
+msgid "label_summary"
+msgstr "Summary"
+
+#. Default: "Transform"
+#: ATContentTypes/skins/ATContentTypes/atct_image_transform.pt:33
+msgid "label_transform"
+msgstr "Transform"
+
+#. Default: "URL"
+#: ATContentTypes/content/link.py:33
+msgid "label_url"
+msgstr "URL"
+
+#. Default: "Add New Search Criteria"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:151
+msgid "legend_add_new_search_criteria"
+msgstr "Add New Search Criteria"
+
+#. Default: "Set Sort Order"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:227
+msgid "legend_set_sort_order"
+msgstr "Set Sort Order"
+
+#. Default: "Catalog index"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicIndex.cpt:99
+msgid "listingheader_catalog_index"
+msgstr "Catalog index"
+
+#. Default: "Catalog metadata"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:97
+msgid "listingheader_catalog_metadata"
+msgstr "Catalog metadata"
+
+#. Default: "Enabled?"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:96
+msgid "listingheader_enabled"
+msgstr "Enabled?"
+
+#. Default: "Explanation"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:99
+msgid "listingheader_explanation"
+msgstr "Explanation"
+
+#. Default: "Friendly name"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:98
+msgid "listingheader_friendly_name"
+msgstr "Friendly name"
+
+#. Default: "No sort order"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:243
+msgid "no_sort_order"
+msgstr "No sort order"
+
+#. Default: "or"
+#: ATContentTypes/criteria/selection.py:25
+msgid "or"
+msgstr "or"
+
+#. Default: "Criteria configuration"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:90
+msgid "summary_criteria_configuration"
+msgstr "Criteria configuration"
+
+#. Default: "Indices configuration"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicIndex.cpt:94
+msgid "summary_indices_configuration"
+msgstr "Indices configuration"
+
+#. Default: "Metadata configuration"
+#: ATContentTypes/skins/ATContentTypes/atct_manageTopicMetadata.cpt:92
+msgid "summary_metadata_configuration"
+msgstr "Metadata configuration"
+
+#. Default: "Field"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:98
+msgid "table_criteria_field"
+msgstr "Field"
+
+#. Default: "Criterion Details"
+#: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:99
+msgid "table_criterion_details"
+msgstr "Criterion Details"
+
+#. Default: "No albums or photos uploaded yet."
+#: ATContentTypes/skins/ATContentTypes/atct_album_view.pt:76
+msgid "text_no_albums_uploaded"
+msgstr "No albums or photos uploaded yet."
+
+#. Default: "Back to album"
+#: ATContentTypes/skins/ATContentTypes/atct_album_image.pt:35
+msgid "title_back_to_album"
+msgstr "Back to album"
