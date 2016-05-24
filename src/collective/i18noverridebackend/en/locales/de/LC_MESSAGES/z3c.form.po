@@ -61,8 +61,8 @@ msgid "<span class=\"required\">*</span>&ndash; required"
 msgstr "<span class=\"required\">*</span>&ndash; required"
 
 #: src/z3c/form/form.py:185 src/z3c/form/subform.py:29
-msgid "There were some errors."
-msgstr "There were some errors."
+#msgid "There were some errors."
+#msgstr "There were some errors."
 
 #: src/z3c/form/form.py:269 src/z3c/form/subform.py:30
 msgid "Data successfully updated."
