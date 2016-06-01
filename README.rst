@@ -6,33 +6,22 @@
 collective.i18noverridebackend.en
 ==============================================================================
 
-Tell me what your product does
+This product was built to provide a "best efforts" translations override for 
+backend editors who only speak English, yet have to maintain multilingual Plone
+sites.  It will override as many translations as possible without being seen by
+public users.
 
-Features
---------
-
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
 
 
 Translations
 ------------
 
-This product has been translated into
+Translations of this product are welcome, but will need to actually be 
+different products, e.g. for French `collective.i18noverridebackend.fr`.
+Any known translations are shown below. If you create one please raise
+a Pull Request so we can provide a link here,
 
-- Klingon (thanks, K'Plai)
+- 
 
 
 Installation
@@ -47,8 +36,12 @@ Install collective.i18noverridebackend.en by adding it to your buildout::
     eggs =
         collective.i18noverridebackend.en
 
+    zcml =
+        collective.i18noverridebackend.en
 
 and then running ``bin/buildout``
+
+Note: the zcml part is important otherwise translations wont be overridden
 
 
 Contribute
@@ -62,8 +55,7 @@ Contribute
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+If you are having issues, please let us know through the issue tracker above
 
 
 License
