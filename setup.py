@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='collective.i18noverridebackend.en',
-    version='1.0a1',
+    version='1.0a2',
     description="Overrides Plone internationalization to show a English UI to logged-in users",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
